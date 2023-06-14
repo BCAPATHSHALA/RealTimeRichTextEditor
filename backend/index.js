@@ -16,7 +16,7 @@ const PORT = 9000;
 // Create Server Using Only NodeJs
 const io = new Server(PORT, {
   cors: {
-    origin: "https://spectacular-licorice-34118d.netlify.app",
+    origin: "https://real-time-rich-text-editor.vercel.app",
     methods: ["GET", "POST"],
   },
 });
